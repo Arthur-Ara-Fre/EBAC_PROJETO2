@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: rgb(87, 136, 120);
+    padding-top: 100px;
+}
+
+.container{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+form input{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+form button{
+    font-size:  30px;
+    border: none;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    padding: 16px;
+    font-size: 34px;
+}
+
+table td{
+    padding: 8px 0;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,1);
+}
